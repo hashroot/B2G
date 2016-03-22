@@ -157,7 +157,6 @@ case "$1" in
  +	echo PRODUCT_NAME=$1 | sed 's/.....$//' >> .tmp-config &&
  +	repo_sync ferrari
  +	;;
- +
 "d802-l-cm"|"d855-l-cm")
 	echo PRODUCT_NAME=full_$1 | sed 's/.....$//' >> .tmp-config &&
 	repo_sync lge
